@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
 
-<Pane fx:controller="javafx.ContactController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField fx:id="txtName" layoutX="34.0" layoutY="49.0" promptText="Name" />
-      <TextField fx:id="txtEmail" layoutX="34.0" layoutY="100.0" promptText="Email" />
-      <TextField fx:id="txtAddress" layoutX="34.0" layoutY="147.0" promptText="Address" />
-      <TextField fx:id="txtPhone" layoutX="34.0" layoutY="194.0" promptText="Phone" />
-      <Text fx:id="strName" layoutX="342.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
-      <Text fx:id="strEmail" layoutX="342.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <Text fx:id="strAddress" layoutX="342.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
-      <Text fx:id="strPhone" layoutX="342.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
-      <Button onAction="#submit" layoutX="252.0" layoutY="282.0" mnemonicParsing="false" text="Submit" />
+      <TextField layoutX="24.0" layoutY="90.0" promptText="Name" />
+      <TextField layoutX="24.0" layoutY="169.0" promptText="Email" />
+      <TextField layoutX="24.0" layoutY="254.0" promptText="Mark" />
+      <Button layoutX="268.0" layoutY="314.0" mnemonicParsing="false" text="Submit" />
+      <ListView layoutX="283.0" layoutY="85.0" prefHeight="200.0" prefWidth="264.0" />
+      <Button layoutX="283.0" layoutY="38.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="129.0" text="Sort by Mark" />
+      <Button layoutX="428.0" layoutY="38.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="118.0" text="Sort by Name" />
    </children>
 </Pane>

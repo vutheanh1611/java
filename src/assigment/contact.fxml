@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.ContactController">
    <children>
-      <TextField fx:id="txtName" layoutX="34.0" layoutY="49.0" promptText="Name" />
-      <TextField fx:id="txtEmail" layoutX="34.0" layoutY="100.0" promptText="Email" />
-      <TextField fx:id="txtAddress" layoutX="34.0" layoutY="147.0" promptText="Address" />
-      <TextField fx:id="txtPhone" layoutX="34.0" layoutY="194.0" promptText="Phone" />
-      <TextField fx:id="txtAge" layoutX="34.0" layoutY="248.0" promptText="Age" />
-      <Text fx:id="strName" layoutX="342.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
-      <Text fx:id="strEmail" layoutX="342.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <Text fx:id="strAddress" layoutX="342.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
-      <Text fx:id="strPhone" layoutX="342.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
-      <Text fx:id="strAge" layoutX="342.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" />
-      <Button layoutX="252.0" layoutY="282.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <Text layoutX="252.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh ba">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <TextField fx:id="txtName" layoutX="41.0" layoutY="85.0" promptText="Name" />
+      <TextField fx:id="txtEmail" layoutX="41.0" layoutY="158.0" promptText="Email" />
+      <Button layoutX="144.0" layoutY="226.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <ListView fx:id="lv" layoutX="273.0" layoutY="72.0" prefHeight="276.0" prefWidth="302.0" />
    </children>
 </Pane>

@@ -5,6 +5,10 @@ public class TamGiac {
     int canh2;
     int canh3;
 
+    public TamGiac(){
+        System.out.println("Contructor...");
+    }
+
     public int getCanh1() {
         return canh1;
     }
