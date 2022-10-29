@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment8.editBook.EditBookController">
+   <children>
+      <Text layoutX="323.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book infomation:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtId" layoutX="230.0" layoutY="86.0" prefHeight="25.0" prefWidth="381.0" promptText="ID" />
+      <TextField fx:id="txtName" layoutX="230.0" layoutY="131.0" prefHeight="25.0" prefWidth="381.0" promptText="Name" />
+      <TextField fx:id="txtAuthor" layoutX="229.0" layoutY="177.0" prefHeight="25.0" prefWidth="381.0" promptText="Author" />
+      <ComboBox fx:id="cbPublisher" layoutX="229.0" layoutY="229.0" prefHeight="25.0" prefWidth="381.0" promptText="Publisher" />
+      <ComboBox fx:id="cbType" layoutX="230.0" layoutY="279.0" prefHeight="25.0" prefWidth="381.0" promptText="Type" />
+      <TextField fx:id="txtPrice" layoutX="230.0" layoutY="330.0" prefHeight="25.0" prefWidth="381.0" promptText="Price" />
+      <TextField fx:id="txtQuantity" layoutX="230.0" layoutY="378.0" prefHeight="25.0" prefWidth="381.0" promptText="Quantity" />
+      <Button layoutX="340.0" layoutY="433.0" mnemonicParsing="false" onAction="#edit" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #2D99B1;" text="Edit" textFill="WHITE" />
+      <Button layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#goBackToList" style="-fx-background-color: #979797;" text="&lt; Back" textFill="WHITE" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Publisher:" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type:" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity:" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author:" />
+      <Text fill="#0000007e" layoutX="170.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+   </children>
+</Pane>

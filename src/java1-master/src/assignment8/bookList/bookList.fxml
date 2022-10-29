@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment8.bookList.BookListController">
+   <children>
+      <Text layoutX="366.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book list:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ListView fx:id="lvBook" layoutX="14.0" layoutY="78.0" prefHeight="492.0" prefWidth="698.0" />
+      <Button layoutX="304.0" layoutY="47.0" mnemonicParsing="false" onAction="#search" style="-fx-background-color: #979797;" text="Search" textFill="WHITE" />
+      <Button layoutX="520.0" layoutY="47.0" mnemonicParsing="false" onAction="#sortByPrice" style="-fx-background-color: #979797;" text="Sort by price" textFill="WHITE" />
+      <Button layoutX="611.0" layoutY="47.0" mnemonicParsing="false" onAction="#sortByQuantity" style="-fx-background-color: #979797;" text="Sort by quantity" textFill="WHITE" />
+      <Button layoutX="718.0" layoutY="78.0" mnemonicParsing="false" onAction="#goToAdd" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #41B12D;" text="Add" textFill="WHITE" />
+      <Button layoutX="718.0" layoutY="110.0" mnemonicParsing="false" onAction="#goToEdit" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #2D99B1;" text="Edit" textFill="WHITE" />
+      <Button layoutX="718.0" layoutY="144.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #DF2525;" text="Delete" textFill="WHITE" />
+      <Text layoutX="321.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Select book to edit or delete)" />
+      <Text layoutX="14.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search by name:" />
+      <TextField fx:id="txtSearch" layoutX="107.0" layoutY="47.0" prefHeight="25.0" prefWidth="191.0" />
+      <Button layoutX="363.0" layoutY="47.0" mnemonicParsing="false" onAction="#clearSearch" style="-fx-background-color: #979797;" text="Clear" textFill="WHITE" />
+   </children>
+</Pane>
