@@ -40,7 +40,7 @@ public class Complex {
     public void nhap(Scanner sc){
         System.out.println("Nhap so phuc");
         n1 = sc.nextDouble();
-        System.out.println("Nhap so ap");
+        System.out.println("Nhap so phuc");
         n2 = sc.nextDouble();
 
     }
